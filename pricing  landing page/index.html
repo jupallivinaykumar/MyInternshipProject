@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Pricing Table </title>
+</head>
+<body>
+    <div class="top-banner">
+        <p class ="current-plan">YOUR CURRENT PLAN  </p>
+        <P class =" plan-type"> start trial  ...</P>
+    </div>
+
+    <div class =" container">
+        <h1 class ="title ">choose a vehicle </h1>
+        <div class =" toggle-switch">
+            <span> Trucks</span>
+            <input type ="checkbox" class="toggler">
+            <span > Excavators</span> 
+
+        </div>
+        <div class ="cards">
+
+            <!-- STARTER -->
+            <div class ="card" id="card-1">
+                <h1 class ="card-title"> starter</h1>
+                <h2 class ="card-price" id="starter-price" > $150<span> /day </span></h2>
+                <ul class ="card-plan">
+                    <li> unlimted guides  </li>
+                    <li> unlimted flows </li>
+                    <li> Email support</li>
+
+                </ul>
+                <button type =" button " class ="card-btn"> choose a vehicle </button>
+
+            </div>
+            <!--  PRO PLAN -->
+
+            <div class ="card active" id="card-2">
+                <h1 class ="card-title"> pro </h1>
+                <h2 class ="card-price" id="pro-price" > $530 <span> /week </span></h2>
+
+                <select id="vinay" >
+                    <option value ="10" > 10  maus</option>
+                    <option value ="20" > 20 maus</option>
+                    <option value ="30" >30  maus</option>
+                    <option value ="40" > 40  maus</option>
+                     </select>
+                      <span class =" note" >monthly active users </span>
+
+                <ul class ="card-plan">
+                    <li> unlimted guides  </li>
+                    <li> unlimted flows </li>
+                    <li> Email support</li>
+
+                </ul>
+                <button type =" button " class ="card-btn"> choose a vehicle </button>
+
+            </div>
+
+            <div class ="card" id="card-3">
+                <h1 class ="card-title">ultra pro </h1>
+                <h2 class ="card-price" id="ultra-price" > $3000 <span> /month</span></h2>
+                <ul class ="card-plan">
+                    <li> unlimted guides  </li>
+                    <li> unlimted flows </li>
+                    <li> Email support</li>
+
+                </ul>
+                <button type =" button " class =" card-btn"> choose a vehicle </button>
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
